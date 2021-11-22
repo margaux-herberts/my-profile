@@ -1,0 +1,99 @@
+body {
+	background-color: #FDE9E0;
+	color: black;
+	font-family: trebuchet MS;
+	font-size: 19px;
+}
+
+h1, h2 {
+	font-family: 'Ramabhadra', sans-serif; 
+}
+
+
+h1 {
+	color: #4B0082;
+	font-weight: 500;
+	letter-spacing: 3px;
+	font-size: 40px;
+}
+
+h2 {
+	color: black;
+	font-weight: lighter;
+	font-size: 26px;
+}
+
+.btn-purple{
+	background-color: #4B0082;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}	
+
+.container{
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white{
+	background: white;
+	padding: 60px;
+	margin: 20px 0px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+	border-radius: 4px;
+	text-align: center;
+	border: 1px solid #4B0082;
+}
+
+.img-circle{
+	border-radius: 50%;
+}
+
+.list-inline{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+
+.list-inline i {
+	font-size: 50px;
+	color: #4B0082;
+}
+
+.list-inline i:hover{
+	color: #FDE9E0;
+}
+
+.btn-purple:hover{
+	background-color: #FDE9E0;
+	color: white;
+}
+
+a{
+	text-decoration: none;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+@media (max-width: 760px){
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width: 500px){
+	.container{
+		width: 400px;
+	}
+}
+
+#img-css {
+	padding-top: 30px;
+}
